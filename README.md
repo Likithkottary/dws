@@ -1,29 +1,4 @@
 # dws
 
-dload dws agent- > https://www.dwservice.net/en/download.html
-
-cd /home/veer/Downloads
-chmod +x dwagent.sh
-sudo ./dwagent.sh
-
-install - click 1, 
-select path - click enter, 
-select yes - click 1
-enter installation code - click 1
-
-sudo raspi-config
-select advanced option in option 6
-select wayland
-select w1 x11
-
-sudo nano /boot/firmware/config.txt
-go to bottom line and paste this 3 line below code
-hdmi_force_hotplug=1
-hdmi_group=2
-hdmi_mode=82
-
-ctrl + x & then press y
-
-sudo reboot
 
 
